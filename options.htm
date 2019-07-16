@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8"/>
+		<title>Options</title>
+        <script src="test2.js"></script>
+	    <script src="options.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <style>div {margin-right : 180px;}</style>
+	</head>
+    
+	<body onload="ps_options.options_main()" bgcolor="#E6E6FA">
+			<h2>Distribution of Strategies:</h2><br>
+            <div style="width:500px;">
+                <input class="range" type="range" id="acR"  min="0" max="100" step="1" onchange="ps_options.show_value(this.id)">Always Cooperate</input>
+                <span id="acR_"></span>
+                <input class="range" type="range" id="adR" min="0" max="100" step="1" onchange="ps_options.show_value(this.id)">Always Defect</input>
+                <span id="adR_"></span>
+                <input class="range" type="range" id="tftR" min="0" max="100" step="1" onchange="ps_options.show_value(this.id)">Tit For Tat</input>
+                <span id="tftR_"></span>
+                <input class="range" type="range" id="gR"  min="0" max="100" step="1" onchange="ps_options.show_value(this.id)">Grudger</input>
+                <span id="gR_"></span>
+                <input class="range" type="range" id="jR"  min="0" max="100" step="1" onchange="ps_options.show_value(this.id)">JOSS</input>
+                <span id="jR_"></span>
+                <input class="range" type="range" id="ftftR" min="0" max="100" step="1"onchange="ps_options.show_value(this.id)">Forgiving Tit For Tat</input>
+                <span id="ftftR_"></span>
+                <input class="range" type="range" id="rR" min="0" max="100" step="1" onchange="ps_options.show_value(this.id)">Random</input>
+                <span id="rR_"></span>
+                <input class="range" type="range" id="stftR" min="0" max="100" step="1" onchange="ps_options.show_value(this.id)">Suspicious Tit For Tat</input>
+                <span id="stftR_"></span>
+                <input class="range" type="range" id="pR" min="0" max="100" step="1" onchange="ps_options.show_value(this.id)">Pavlov</input>
+                <span id="pR_"></span>
+                <input class="range" type="range" id="rtftR" min="0" max="100" step="1" onchange="ps_options.show_value(this.id)">Reverse TFT</input>
+                <span id="rtftR_"></span>
+                <input class="range" type="range" id="hR" min="0" max="100" step="1" onchange="ps_options.show_value(this.id)">Handshake</input>
+                <span id="hR_"></span>
+            </div>
+            <br><br>
+            
+            <table class="borderless_table">
+                <tr  class="borderless_table">
+                    <td  class="borderless_table"><lable>Number Players</lable></td>
+                    <td class="borderless_table"><input id="num_players_input" type="text" value="100"></td>
+                </tr>
+                <tr class="borderless_table">
+                    <td class="borderless_table"><label>Evolution Mode</label></td>
+                    <td class="borderless_table"><input type="button" id="evol_button" value="No" onclick="ps_options.evol_mode_button()"></td>
+                </tr>
+                <tr class="borderless_table">
+                    <td class="borderless_table"><label>Set probability of cooperation (for random)</label></td>
+                    <td class="borderless_table"><input type="text" id="prob_random_input" value="50"></td>
+                </tr>
+
+            </table>
+
+
+			<button  class="myDesign" style="margin-left: 14px;" id="setup_options" onclick="ps_options.prob_values_button()">OK</button>
+	</body>
+</html>

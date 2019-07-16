@@ -1,0 +1,76 @@
+th, td {
+	padding : 15px;
+}
+
+table{
+	width : 100%;
+}
+
+
+.myDesign{
+  	background-color: #FCAF5F;
+	border: none;
+	color: black;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px; 
+}
+
+.borderless_table{
+    border: 0px;
+}
+
+table, th, td {
+	border: 1px solid black; 
+	border-collapse: collapse;
+	border-bottom: 1px solid #ddd;
+}
+
+
+
+
+
+
+button, input {
+
+}
+
+.range{
+    background-color: #FCAF5F;
+    border: none;
+    padding: 0px 0px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px; 
+}
+
+
+.myDiv {
+    position: relative;
+	background-color: #E4F6FF;
+	border:1px solid #00FF00;
+	font-family: "Courier New";
+	padding-left : 60px;
+	margin-bottom : 25px;
+}
+
+#results_div{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+
+.button_div{
+	margin-bottom : 25px;
+}
+
+div{
+	margin-right : 50px;
+	margin-left : 50px;
+	
+}

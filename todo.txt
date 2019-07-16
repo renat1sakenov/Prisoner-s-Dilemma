@@ -1,0 +1,23 @@
+todo
+	
+    
+    mouse over buttons: add explaination
+    use differente chart lib (?)
+        
+    fix createHTML mess and style.css
+    fix code in general
+			
+	two modes: 
+		static
+		evolution - death + reproduction
+    
+	more parameters in options window. 
+		birth / death ratio
+
+        
+
+    add more strategies
+
+		
+		
+        

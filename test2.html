@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+            <meta charset="utf-8"/>
+			<title>Prisoners Dilemma</title>
+
+        	<link rel="stylesheet" href="style.css">
+	</head>
+	<body bgcolor="#E6E6FA">
+		<div id="all">			
+			<h1>Iterated Prisoner's Dilemma Simulator</h1>
+			<div id="button_div" class="button_div">
+                <button id="one_round_button" class="myDesign" onclick="ps_main.one_round_button()">One round</button>
+                <button id="one_match_button" class="myDesign" onclick="ps_main.one_match()">One Match</button>
+                <button id="set_up_button" class="myDesign" onclick="ps_main.set_up()">Setup</button>
+                <button id="one_generation_button" class="myDesign" onclick="ps_main.one_generation_button()" >One generation</button>
+                <button id="just_run_button_id" class="myDesign" onclick="ps_main.just_run_button()">Run</button>
+                <input  id="options_button" class="myDesign" type="button" onclick="ps_main.open_options()"  value="Options"/>
+                <button id="results_button" class="myDesign"  onclick="ps_main.results()">Results</button>
+			</div>
+            <div id="results"></div>
+			<br><br>
+            
+            
+            
+            <script src="https://www.gstatic.com/charts/loader.js"></script>
+			<script src="test2.js"></script>
+			<script src="createHTML.js"></script>
+			<script src="options.js"></script>
+		</div>
+	</body>	
+</html>
